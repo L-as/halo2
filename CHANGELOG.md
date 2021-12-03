@@ -8,6 +8,8 @@ and this project adheres to Rust's notion of
 ## [Unreleased]
 ### Added
 - `halo2::dev::FailureLocation` (used in `VerifyFailure::Lookup`)
+- `halo2::plonk::Constraints` helper, for constructing a gate from a set of
+  constraints with a common selector.
 
 ### Changed
 - `halo2::plonk::create_proof` now takes an `R: rand::RngCore` argument.
